@@ -1,0 +1,27 @@
+@-moz-document regexp("https://books\\.google\\.[a-z]+/books.*")
+{
+  body div#gb
+  {
+    display: none;
+  }
+
+  body div#gba
+  {
+    display: none;
+  }
+
+  h2.kd-appname
+  {
+    display: none;
+  }
+
+  div[id=":7"]
+  {
+    display: none;
+  }
+
+  div.kd-appbar
+  {
+    padding: 0;
+  }
+}
